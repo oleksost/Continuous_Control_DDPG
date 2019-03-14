@@ -56,7 +56,7 @@ Episode 13	Average Score: 37.22
 ```
 
 The following graph shows the dynamics of the average reward over 100 consecutive episodes, where the x-axis corresponds to the episode number and the y-axis to the score.
-![](Rewards.pdf)
+![](Rewards.png)
 
 ## Future Work
 
