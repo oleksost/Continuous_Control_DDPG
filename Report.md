@@ -23,7 +23,7 @@ Actor and critic feature a simple architecture containing two fully connected la
 Main hyperparameters of the learning algorithm can be found in *ddpg_agent.py*, these were tuned to perform well on the given environment and include:
 
 
-- NUM_UPDATES = 10 - number of batch updates per learning step
+- NUM_UPDATES = 5 - number of batch updates per learning step
 - UPDATE_EVERY = 20 - how often should the model be updated (one learning step in every *UPDATE_EVERY* steps )
 - BUFFER_SIZE = int(1e6)  # replay buffer size
 - BATCH_SIZE = 256  - minibatch size
