@@ -48,3 +48,5 @@ python test.py
     --model_pth_critic = "Path to the trained critic"
     --model_pth_actor = "Path to the trained actor"
 ```
+
+The model weights for the successful actor and critic models are uploaded into the repository as checkpoint_critic.pth and checkpoint_actor.pth.
